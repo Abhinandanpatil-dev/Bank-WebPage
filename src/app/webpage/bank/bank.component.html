@@ -1,0 +1,596 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"
+></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<div class="containerr" id="homee">
+  <header>
+    <nav>
+      <div class="left-side"></div>
+      <div class="right-side">
+        <ul>
+          <li>
+            <a href=""
+              ><span
+                ><i
+                  style="
+                    padding-right: 10px;
+                    font-size: 20px;
+                    color: rgb(115, 98, 2);
+                  "
+                  class="fa fa-question-circle"
+                ></i></span
+              >Need help?</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><span
+                ><i
+                  style="
+                    padding-right: 10px;
+                    font-size: 20px;
+                    color: rgb(115, 98, 2);
+                  "
+                  class="fa"
+                  >&#xf041;</i
+                ></span
+              >locate us</a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><span
+                ><i
+                  style="
+                    padding-right: 10px;
+                    font-size: 20px;
+                    color: rgb(115, 98, 2);
+                  "
+                  class="fa"
+                  >&#xf095;</i
+                ></span
+              >Contact us</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- <span class="fa fa-university" style=" color: rgb(13, 13, 72);"> -->
+    </nav>
+  </header>
+
+  <div class="bankpage">
+    <div class="second-nav">
+      <div
+        class="symbol"
+        style="
+          color: rgb(13, 13, 72);
+          font-size: 25px;
+          font-weight: bold;
+          padding-left: 15px;
+        "
+      >
+        <img src="../assets/america.png"  alt="" />
+      </div>
+
+      <div class="contents" >
+        <div style="" class="navbar" id="navbar">
+          <p style="cursor: pointer;" ><a href="#homee" style=" text-decoration: none;">HOME</a></p>
+
+        <p style="cursor: pointer;"><a href="#personal" style=" text-decoration: none;">PERSONAL</a></p>
+
+        <p style="cursor: pointer;"><a href="#wealth" style=" text-decoration: none;">WEALTH</a></p>
+        </div>
+       
+      </div>
+      <div class="burger-icon">
+        <div class="fa fa-bars" (click)="togglenavbar()"></div>
+    </div>
+    </div>
+
+    <div class="background-img" style="">
+      <!-- <img src=" alt="" /> -->
+    </div>
+    <div class="front-items">
+     
+      <div class="infoss">
+        <div>
+          <h2>
+            Modern
+            <span style="color: rgb(255, 217, 0); font-weight: bold"
+              >Banking</span
+            >
+          </h2>
+        </div>
+        <h2>Lasting</h2>
+        <h2>Relationships.</h2>
+        <p style="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi qui
+          dicta commodi iste enim saepe, rerum officia fuga corrupti repudiandae
+          minima. Nemo distinctio vero, beatae sint minus consequuntur inventore
+          maxime?
+        </p>
+      </div>
+      <div class="sign-in-button">
+        <button  type="button" (click)="btnClick()">sign In</button>
+      </div>
+
+
+
+
+
+
+
+
+     
+
+      <div class="popup"  *ngIf="btnSign">
+        <h2>WELCOME</h2>
+        <div class="company-name">
+          <label for="company-name">Company Name :</label>
+          <input style="border-radius: 5px" type="text" />
+        </div>
+
+        <div class="company-name">
+          <label for="Contact-Person">Contact Person Name :</label>
+          <input type="text" style="border-radius: 5px" />
+        </div>
+        <div class="company-name">
+          <button
+            style="
+              background-color: rgb(5, 171, 254);
+              width: 100%;
+              padding: 10px;
+              margin-top: 10px;
+              border: none;
+              border-radius: 5px;
+            "
+          >
+            Sign in
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="back-content" style="">
+        <div class="contentss" >
+          <h2>WELCOME</h2>
+          <div class="company-name">
+            <label for="company-name">Company Name :</label>
+            <input style="border-radius: 5px" type="text" />
+          </div>
+
+          <div class="company-name">
+            <label for="Contact-Person">Contact Person Name :</label>
+            <input type="text" style="border-radius: 5px" />
+          </div>
+          <div class="company-name">
+            <button
+              style="
+                background-color: rgb(5, 171, 254);
+                width: 100%;
+                padding: 10px;
+                margin-top: 10px;
+                border: none;
+                border-radius: 5px;
+              "
+            >
+              Sign in
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    
+  </div>
+
+  <div class="cards">
+    <div class="card-3">
+      <div class="card-content">
+        <div class="title-c1">
+          <h4>Chase</h4>
+          <h4>Freedom</h4>
+          <h4>Unlimited</h4>
+        </div>
+        <div class="paras">
+          <p class="card-text">
+            <span
+              ><strong
+                >Earn a $200 bonus + 5% gas and grocery store offer</strong
+              ></span
+            >
+          </p>
+          <p style="word-wrap: break-word">
+            Plus, earn unlimited 1.5% cash back or more on all purchases,
+            including 3% on dining and drugstores - all with no annual fee.
+          </p>
+          <a href="#" class="btn btn-primary">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="card-3">
+      <div class="card-content">
+        <div class="title-c1" style="background-color: rgb(1, 1, 53)">
+          <h4>Business</h4>
+          <h4>Complete</h4>
+          <h4>Checking</h4>
+        </div>
+        <div class="paras">
+          <p class="card-text">
+            <span
+              ><strong
+                >Earn a $200 bonus + 5% gas and grocery store offer</strong
+              ></span
+            >
+          </p>
+          <p style="word-wrap: break-word">
+            Plus, earn unlimited 1.5% cash back or more on all purchases,
+            including 3% on dining and drugstores - all with no annual fee.
+          </p>
+          <a href="#" class="btn btn-primary">open an account</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-3">
+      <div class="card-content">
+        <div class="title-c1">
+          <h4>Chase</h4>
+          <h4>Secure</h4>
+          <h4>Banking</h4>
+        </div>
+        <div class="paras">
+          <p class="card-text">
+            <span
+              ><strong
+                >Earn a $200 bonus + 5% gas and grocery store offer</strong
+              ></span
+            >
+          </p>
+          <p style="word-wrap: break-word">
+            Plus, earn unlimited 1.5% cash back or more on all purchases,
+            including 3% on dining and drugstores - all with no annual fee.
+          </p>
+          <a href="#" class="btn btn-primary">open an account</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="container2">
+      <div class="ll">
+        <div class="trusted-company">
+          <div class="block-title text-left">
+            <p>Trusted Company</p>
+            <h2>Most of the People Trust on Us</h2>
+          </div>
+          <div
+            class="trusted-company__image"
+            style="display: flex; flex-direction: row; align-items: center"
+          >
+            <div>
+              <img src="../assets/bc2image.png" />
+            </div>
+            <div class="trusted-para">
+              <p style="padding-left: 10px; margin: 0 0 0 30px">
+                Continuously engage with your audience, respond to inquiries,
+                and address any concerns promptly. By consistently providing
+                reliable and valuable insurance information.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rr">
+        <div class="expertise">
+          <p style="font-size: 20px; font-weight: 450; padding-top: 10px">
+            <span
+              style="
+                background-color: rgb(0, 98, 255);
+                padding: 10px;
+                border-radius: 42px;
+                margin-right: 5px;
+                color: white;
+                font-weight: bold;
+              "
+              >01</span
+            >Expertise and Authoritative Voice.
+          </p>
+        </div>
+
+        <div class="expertise">
+          <p style="font-size: 20px; font-weight: 450; padding-top: 10px">
+            <span
+              style="
+                background-color: rgb(0, 98, 255);
+                padding: 10px;
+                border-radius: 42px;
+                margin-right: 5px;
+                color: black;
+                font-weight: bold;
+              "
+              >01</span
+            >Expertise and Authoritative Voice.
+          </p>
+        </div>
+
+        <div class="expertise">
+          <p style="font-size: 20px; font-weight: 450; padding-top: 10px">
+            <span
+              style="
+                background-color: rgb(0, 98, 255);
+                padding: 10px;
+                border-radius: 42px;
+                margin-right: 5px;
+                color: white;
+                font-weight: bold;
+              "
+              >01</span
+            >Expertise and Authoritative Voice.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="blue-background" id="wealth">
+      <div class="blue-image">
+        <div class="contain">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 border-line">
+              <div class="funfact-one__box">
+                <h3 style="color: white">
+                  <span class="odometer" data-count="99"
+                    ><span style="color: white">99</span></span
+                  >%
+                </h3>
+                <p style="color: white; font-weight: bold">
+                  We Approve Insurance
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 border-line">
+              <div class="funfact-one__box">
+                <h3 style="color: white">
+                  $<span class="odometer" data-count="90"
+                    ><span style="color: white">90</span></span
+                  >k
+                </h3>
+                <p style="color: white; font-weight: bold">Daily Payments</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 border-line">
+              <div class="funfact-one__box">
+                <h3 style="color: white">
+                  <span class="odometer" data-count="8900"
+                    ><span style="color: white">8900</span></span
+                  >
+                </h3>
+                <p style="color: white; font-weight: bold">Happy Customers</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="funfact-one__box">
+                <h3 style="color: white">
+                  <span class="odometer" data-count="346"
+                    ><span>346</span></span
+                  >
+                </h3>
+                <p style="color: white; font-weight: bold">Staff Members</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Why choose us -->
+
+  <div class="choose-container" id="personal">
+    <div class="choose-image">
+      <img src="../assets/why-choose-3-new.jpg" height="95%" alt="" />
+    </div>
+    <div class="choose-content">
+      <div class="benfits">
+        <h6>Our Benfits</h6>
+
+        <h1>Why Choose Us?</h1>
+      </div>
+      <div class="choice">
+        <p>
+          We're the best choice for quality, reliability, and customer
+          satisfaction
+        </p>
+      </div>
+      <div class="prof-team">
+        <div class="prof" >
+          <p style="  font-size: 18px;
+          font-weight: bold;
+          ">Profession team</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus,
+            consequatur quia, repellendus fugiat harum facere voluptas minima
+            odit nihil repellat corrupti tempore quas aliquam veniam? Non
+            numquam minima inventore ducimus.
+          </p>
+        </div>
+        <div class="team" >
+          <p style="  font-size: 18px;
+          font-weight: bold;
+          ">Profession customer</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dicta
+            consequuntur magnam doloribus odit aliquam corporis, incidunt error
+            eligendi, tenetur necessitatibus aspernatur maxime quo, earum
+            similique quas impedit ipsa officia.
+          </p>
+        </div>
+      </div>
+      <div class="progrsbars1">
+        <h2>Claim Processing</h2>
+        <div class="progress">
+          <div
+            class="progress-bar"
+            role="progressbar"
+            style="width: 90%; height: 12px"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            90%
+          </div>
+        </div>
+      </div>
+      <div class="progressbar2">
+        <h2>Consultancy</h2>
+        <div class="progress">
+          <div
+            class="progress-bar"
+            role="progressbar"
+            style="width: 70%; height: 12px"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            70%
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <div class="upper-footer">
+        <h2>Helpful Resources</h2>
+        <div class="left-upper">
+          <ul>
+            <li>
+              <a href="#" target="_self"> Careers </a>
+            </li>
+            <li>
+              <a href="#" target="_self"> Lost &amp; Stolen Cards </a>
+            </li>
+            <li>
+              <a href="#" target="_self"> Bank Holidays </a>
+            </li>
+            <li>
+              <a href="#" target="_self"> Money Smart for Adults </a>
+            </li>
+          </ul>
+        </div>
+        <div class="right-upper">
+          <ul>
+            <li>
+              <a href="#" target="_self"> Newsroom </a>
+            </li>
+            <li>
+              <a href="#" target="_self"> Fraud &amp; Security </a>
+            </li>
+            <li>
+              <a href="#" target="_self"> Money Smart for Small Businesses </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="middle-footer">
+        <div class="client-services">
+          <p>Client Services</p>
+          <h3>8484846</h3>
+        </div>
+        <div class="client-para">
+          <p>
+            American Bank is a local community bank in Texas. We offer valuable
+            personal and business banking solutions including checking accounts,
+            savings accounts, commercial loans, American Bank Equipment Finance,
+            mortgage loans, real estate loans, wealth management services,
+            private banking services and much more. Bank online, with our mobile
+            app, or visit one of our conveniently located Texas branches in San
+            Antonio, Austin, Goliad, Victoria, Corpus Christi, Rockport, Port
+            Aransas,and Houston.
+          </p>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <div class="bottom-left">
+          <p>
+            © 2023 American Bank, N.A. &nbsp; &nbsp; | &nbsp; &nbsp; Member
+            Independent Bankers Association of Texas &nbsp; &nbsp; | &nbsp; &nbsp;
+            Member Texas Bankers Association&nbsp;
+          </p>
+  
+          <ul class="list-inline">
+            <li>
+                <a href="#" target="_self">
+                    Agreements &amp; Disclosures
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    Accessibility
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    Sitemap
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    Website by ZAG Interactive
+                </a>
+            </li>
+    </ul>
+        </div>
+        <div class="bottom-right">
+           <img style="height: 100px; " src="../assets/transference.png" alt="">
+        </div>
+       
+      </div>
+    </div>
+  </footer>
+</div>
